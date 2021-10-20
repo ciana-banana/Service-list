@@ -1,1 +1,1 @@
-# Service-list
+# List of services/courses
