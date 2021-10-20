@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Dati Edutech</title>
+
+	<link href="style.css" type="text/css" rel="stylesheet">
+
+
+	<link href="./Style/fontawesome.all.css" rel="stylesheet">
+	<link href="./Style/bootstrap-adevico.min.css" rel="stylesheet">
+	<!-- Col Master -->
+	<link href="./Style/Styles.css" type="text/css" rel="stylesheet">
+	<link href="./Style/Reset_UI_2017.css" type="text/css" rel="stylesheet">
+	<!-- Latex -->
+	<link rel="Stylesheet" href="./Style/statistiche.css">
+	<link rel="Stylesheet" href="./Style/Latex.css">
+	<link rel="Stylesheet" href="./Style/Latex.css" media="print">
+
+	<script type="text/javascript" src="./Scripts/Latex.js"></script>
+
+
+	<!-- 
+		<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/Style/Latex/Latex.js?v=94"></script>
+	-->
+
+	<!-- Localizations-->
+	<script type="text/javascript" src="./Scripts/localization.it-IT.js"></script>
+	<!-- CPH Header -->
+
+
+
+	<script type="text/javascript" src="./Scripts/localization.helpers.js"></script>
+
+	<!-- JQuery -->
+	<link href="./Style/jquery-ui-1.10.4.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="./Scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./Scripts/modernizr-2.8.3.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery-ui-1.10.4.min.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.blockUI.min.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.tools.126.min.js"></script>
+
+	<script type="text/javascript" src="./Scripts/AdvExplorerMessage.js" id="scriptForAdvExplorerMessage"
+		data-language-code="it-IT"></script>
+
+	<!-- Altri script servizi globali -->
+	<script type="text/javascript" src="./Scripts/jquery.notice.js"></script>
+
+	<link rel="Stylesheet" href="./Scripts/jquery.notice.css">
+
+	<!--Stili skin-->
+	<link href="./Style/Refactor.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./Style/Main.css?v=71">
+	<!-- Javascript confirmation-->
+	<script type="text/javascript" src="./Scripts/jquery.needConfirm.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.needConfirm.base.js"></script>
+
+	<!-- Vari ed eventuali -->
+	<script src="./Style/WebResource.axd" type="text/javascript"></script>
+	<script src="./Style/ScriptResource.axd" type="text/javascript"></script>
+
+<!-- Script sortable list-->
+<link data-require="jqueryui@*" data-semver="1.10.0" rel="stylesheet"
+href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+<script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script data-require="jqueryui@*" data-semver="1.10.0"
+src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+<script data-require="angular.js@1.2.0-rc3-nonmin" data-semver="1.2.0-rc3-nonmin"
+src="http://code.angularjs.org/1.2.0-rc.3/angular.js"></script>
+<script src="sortable.js"></script>
+<link rel="stylesheet" href="style2.css" />
+<script src="script2.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+	<style>
+		#page-box #container {
+			background-color: #fff;
+			< !-- background-color: #f0f0f0;
+			-->margin: 0px !important;
+			width: 100% !important;
+		}
+
+		#page-box #container #content div.DIV_MP_Content {
+			background-color: #fff;
+
+		}
+	</style>
+	<style>
+		.pathInfoContainer .rounded-left {
+			border-top-left-radius: 1em !important;
+			border-bottom-left-radius: 1em !important;
+		}
+
+		.titolocorsi {
+
+			width: 100%;
+			height: 90px;
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+			background: #fff;
+			position: relative;
+		}
+	</style>
+
+</head>
+
+<body class="_UsrType18" ng-app="myapp" ng-controller="ctrl">
+
+	<div id="header" class="">
+		<!-- toolbar OK: V3.0b8-->
+		<div id="toolbar">
+			<div class="page-width row">
+				<div class="_containerLogo col-6">
+
+					<a href="#">
+						<img src="./TopLogo.png" alt="Home Page" title="Home Page" class="logo">
+					</a>
+				</div>
+				<div id="_tools" class="col-6 text-right">
+					<img src="./TopMenu.png" alt="Top Menu">
+				</div>
+			</div>
+		</div>
+		<!-- end toolbar -->
+
+		<!--container-->
+	</div>
+	<div id="page-box">
+		<div id="container" class="page-width shadowed bottom-rounded">
+			<div id="content">
+
+				<div class="page-width">
+					<div id="serviceinfo" class="RigaTitolo serviceinfo " style="margin-top: 5px;padding-left: 5px;">
+						<div class="TitleContainer">
+							<div class="NameContainer">
+								<span id="ctl00_LBcommunityName" title="Portale" class="communityName">
+									Ambiente di test - Titolo allungato parecchio per test impaginazioni e con
+									l'aggiunta di tutti i tag ed
+									ulteriore testo perché deve essere più lungo della comunità più lunga che ora ha 167
+									caratteri.
+								</span>
+							</div>
+							<div class="serviceName"
+								style="display: inline;font-size: 12px;line-height: 20px;margin-bottom: 4px;text-transform: uppercase;font-weight:normal;font-variant: normal;font-weight: normal;">
+								<span id="ctl00_LBtitolo">
+									Titolo del servizio
+								</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div id="nav-main">
+					<div class="page-width">
+						<img src="./BottomMenu.png" width="100%" class="mt-2">
+					</div>
+				</div>
+
+				<div class="DIV_MP_Content ">
+
+					<!--  CONTENUTO -->
+
+
+					<table class="table table-hover">
+
+						<tbody ng-app="myapp" ng-controller="ctrl">
+							<ul psi-sortable="" ng-model="list"><tr> 
+								<li class="list-group-item list-group-item-action list-group-item-info">
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/ModulesForApi/Questionari/Compile.aspx" class=" edt_link">
+										<p class="small"><i class="fas fa-poll fa-3x text-success"></i></p>
+									</a></td>
+								<td> <a href="/AdevicoWeb/ModulesForApi/Questionari/Compile.aspx" class=" edt_link">
+										<h6>Soddisfazione</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Compila il questionario di Soddisfazione</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td></li>
+							</tr></ul>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/ModulesForApi/Questionari/SurveyComList.aspx"
+										class=" edt_link">
+										<p class="small"><i class="fas fa-poll fa-3x text-success"></i></p>
+									</a></td>
+								<td> <a href="/AdevicoWeb/ModulesForApi/Questionari/SurveyComList.aspx"
+										class=" edt_link">
+										<h6>Survey</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Compila il questionario di gradimento</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/modules/communitydiary/ComDiaryTile.aspx" class=" edt_link">
+										<p class="small"><i class="fa fa-calendar-alt fa-3x"></i></p>
+									</a></td>
+								<td> <a href="/AdevicoWeb/modules/communitydiary/ComDiaryTile.aspx" class=" edt_link">
+										<h6>Calendario Webinar</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi ai tuoi Webinar</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/Modules/EduPath/EduPathList.aspx?ViewMode=1"
+										class=" edt_link">
+										<p class="small"><i class="fa fa-graduation-cap fa-3x"></i></p>
+									</a></td>
+								<td> <a href="/AdevicoWeb/Modules/EduPath/EduPathList.aspx?ViewMode=1"
+										class=" edt_link">
+										<h6>Corso FAD</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi ai tuoi corsi</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td><a href="/AdevicoWeb/Modules/Repository/List.aspx" class=" edt_container edt_link">
+										<p class="small"><i class="fa fa-folder-open fa-3x"></i></p>
+									</a></td>
+								<td><a href="/AdevicoWeb/Modules/Repository/List.aspx" class=" edt_container edt_link">
+										<h6>Materiali</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi ai tuoi materiali</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/questionari/QuestionariList.aspx?type=0" class=" edt_link">
+										<p class="small"><i class="fa fa-tasks fa-3x"></i></p>
+									</a></td>
+								<td><a href="/AdevicoWeb/questionari/QuestionariList.aspx?type=0" class=" edt_link">
+										<h6>Questionari</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi ai tuoi questionari</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/ModulesForApi/bachecasocial/bachecasocial.aspx"
+										class="edt_link">
+										<p class="small"><i class="fa fa-chalkboard fa-3x"></i></p>
+									</a></td>
+								<td><a href="/AdevicoWeb/ModulesForApi/bachecasocial/bachecasocial.aspx"
+										class="edt_link">
+										<h6>Bacheca Social</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi alla Bacheca</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/forum/forums.aspx" class=" edt_link">
+										<p class="small"><i class="fas fa-landmark fa-3x"></i></p>
+									</a></td>
+								<td><a href="/AdevicoWeb/ModulesForApi/bachecasocial/bachecasocial.aspx"
+										class="edt_link">
+										<h6>Forum</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Accedi ai Forum</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="fas fa-grip-lines"></i></td>
+								<td> <a href="/AdevicoWeb/Generici/MailSender.aspx" class=" edt_container edt_link">
+										<p class="small"><i class="fa fa-paper-plane fa-3x"></i></p>
+									</a></td>
+								<td><a href="/AdevicoWeb/Generici/MailSender.aspx" class=" edt_container edt_link">
+										<h6>Email</h6>
+									</a></td>
+								<td>
+									<p class="text-muted">Invia email al gruppo</p>
+								</td>
+								<td>
+									<h4><i class="fas fa-toggle-on"></i></h4>
+
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td> </td>
+								<td></td>
+								<td></td>
+								<td>
+									<h4><i class="fas fa-trash-alt"></h4></i>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+
+					<br>
+
+					<table class="table">
+
+						<tbody>
+							<form>
+								<div class="form-group">
+									<tr>
+										<td><label for="titolo">
+												<h5>Titolo</h5>
+											</label></td>
+										<td><input type="title" class="form-control" id="titolo"
+												placeholder="Enter title"></td>
+									
+										<td><label for="description">
+												<h5>Descrizione</h5>
+											</label></td>
+										<td><input type="description" class="form-control" id="description"
+												placeholder="Accedi alla bacheca"></td>
+
+									</tr>
+								</div>
+								<div class="form-group">
+									<tr>
+										<td><label for="icon">
+												<h5>Icona</h5>
+											</label></td>
+										<td><input type="icon" class="form-control" id="icon"
+												placeholder="fas fa-icons"></td>
+												<td></td>
+											<td class="text-right"><button type="submit" class="btn btn-secondary ">Aggiungi</button></td>
+									</tr>
+								</div>
+							</form>
+						</tbody>
+					</table>
+
+
+
+
+					<!-- FINE CONTENUTO -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Footer-->
+	<div id="cFooter">
+		<div class="container">
+
+			<div align="center" class="chiusura">
+				<ul class="Logos">
+
+				</ul>
+				<div class="footer_text">
+					<div style="text-align: center;">
+						<span style="font-size: 13px;"><strong>Edutech Srl</strong>
+							&nbsp;-&nbsp; tel. +39 0461 1865865 &nbsp;-&nbsp; fax +39 0461 1865866 -
+							web: <a href="http://www.edutech.it" target="_blank">www.edutech.it</a> - e-mail:
+							<a href="mailto:info@edutech.it">info@edutech.it</a><br>
+							posta certificata:
+							<a href="mailto:amministrazione@pec.edutech.it">amministrazione@pec.edutech.it</a><br>
+							C.F. e P. IVA: 02160210221 &nbsp;-&nbsp; REA n. TN - 20412</span>
+						<span style="font-size: 13px;">
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

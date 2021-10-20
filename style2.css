@@ -1,0 +1,7 @@
+li {
+  border: 1px solid;
+  cursor: move;
+  background: #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
